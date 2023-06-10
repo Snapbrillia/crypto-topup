@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+w3m-modal w3m-explorer-context {
+  z-index: 9999999 !important;
+}
