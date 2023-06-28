@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import {SnapbrilliaElement, useSnapbrilliaContext ,Crypto} from '../../src';
 
-const ExchangeForm = () => {
+const TopUpForm = () => {
   const [amount, setAmount] = useState(100);
   const {showModal} = useSnapbrilliaContext();
   return (
@@ -27,7 +27,7 @@ const App = () => {
   }
   return (
     <SnapbrilliaElement settings={settings}>
-      <ExchangeForm />
+      <TopUpForm />
     </SnapbrilliaElement>
   );
 };
